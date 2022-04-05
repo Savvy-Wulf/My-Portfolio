@@ -15,29 +15,40 @@ html {
 nav {
     display: flex;
     justify-content: space-between;
-    line-height: 5rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 8vh;
     background: rgb(12,22,24);
     background: linear-gradient(297deg, rgba(12,22,24,1) 0%, rgba(0,70,67,1) 100%);
 }
 
 #nav-logo {
     font-family: 'Caveat';
-    font-size: 2.5rem;
-    margin-left: .5rem;
-    padding-right: .5rem;
+    font-size: 3rem;
+    margin-left: 2rem;
+    letter-spacing: .5rem;
     color: #0C1618;
 }
 
-nav ul li {
-    font-family: 'Caveat';
+.nav-container li {
     display: inline-flex;
-    font-size: 2.5rem;
     margin-right: 1rem;
     padding-left: 3.5rem;
 }
 
-nav ul li a {
+.nav-content a {
+    font-size: 2.5rem;
+    padding: .7rem 2rem;
+    border-radius: 1rem;
     color: #004643;
+    font-family: 'Caveat';
+    text-transform: uppercase;
+}
+
+.nav-content a:hover {
+    background-color: grey;
 }
 
 /* Main Content */
