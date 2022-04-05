@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    background-color: rgba(0,78,67,1) ;
 }
 
 /* Nav Bar */
@@ -38,8 +39,15 @@ nav ul li {
 nav ul li a {
     color: #004643;
 }
+
 /* Main Content */
 
 /* About Content */
 
 /* Contact / Footer */
+
+#footer {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
