@@ -51,10 +51,28 @@ nav {
     background-color: grey;
 }
 
-/* Main Content */
-
 /* About Content */
+#about {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    height: 55rem;
+    width: 100rem;
+    margin-top: 8vh;
+    /* border: 1px solid red; for flex visual */
+    margin-left: 25%;
+    margin-right: 25%;
+}
 
+#ab-cont {
+    font-size: 1.5rem;
+    width: 65%;
+    padding: 10%;
+}
+
+#ab-img {
+    width: 35%;
+}
 /* Contact / Footer */
 
 #footer {
